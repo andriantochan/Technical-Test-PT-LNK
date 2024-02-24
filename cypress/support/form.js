@@ -1,0 +1,31 @@
+class form
+{
+    title_form = "//span[normalize-space()='Review our product']"
+    title_fullName = "//span[normalize-space()='Full name']"
+    field_fullName = "//body/div[@id='content-root']/div[@id='RuntimeRoot']/div[@id='RuntimeContainer']/div[@class='-q-16']/div[@class='-a-17']/div[@id='form-main-content1']/div[@class='-a-23']/div[@role='main']/div[@class='css-41']/div[@id='question-list']/div[1]/div[2]/div[1]/span[1]/input[1]"
+    title_phoneNumber = "//span[normalize-space()='Phone Number']"
+    field_phoneNumber = "//body/div[@id='content-root']/div[@id='RuntimeRoot']/div[@id='RuntimeContainer']/div[@class='-q-16']/div[@class='-a-17']/div[@id='form-main-content1']/div[@class='-a-23']/div[@role='main']/div[@class='css-41']/div[@id='question-list']/div[2]/div[2]/div[1]/span[1]/input[1]"
+    title_productOrService = "//span[contains(text(),'Do you think your product or service is affordable')]"
+    rbtn_affordable = "//input[@value='Affordable']"
+    rbtn_expensive = "//input[@value='Expensive']"
+    field_other = "//input[@placeholder='Other']"
+    title_rate = "//span[contains(text(),'Rate our services')]"
+    btn_1star = "//span[@aria-label='1 Star']//span[@aria-hidden='true']//*[name()='svg']"
+    btn_2star = "//span[@aria-label='2 Star']//span[@aria-hidden='true']//*[name()='svg']"
+    btn_3star = "//span[@aria-label='3 Star']//span[@aria-hidden='true']//*[name()='svg']"
+    btn_4star = "//span[@aria-label='4 Star']//span[@aria-hidden='true']//*[name()='svg']"
+    btn_5star = "//span[@aria-label='5 Star']//span[@aria-hidden='true']//*[name()='svg']"
+    title_reviewDate = "//span[normalize-space()='Review date']"
+    field_reviewDate = "//input[@id='DatePicker0-label']"
+    btn_submit = "//button[text()='Submit']"
+    title_success_submit = "//span[text()='Your response has been successfully recorded.']"
+    btn_otherResponse = "//span[@data-automation-id='submitAnother']"
+    btn_saveResponse = "//button[@aria-label='Save my response']"
+    title_warning_fullName = "//div[@id='ErrorMsgId_r9f62b2a1fbe746ab953326f6937d4e73']//span[contains(text(),'This question is required.')]"
+    title_warning_phoneNumber = "//div[@id='ErrorMsgId_r5c2dd5cf6732459894e3d1cb504c8110']//span[contains(text(),'This question is required.')]"
+    title_warning_productOrServices = "//div[@id='ErrorMsgId_r8bc17b753f0048ecb03794ef45037bb7']//span[contains(text(),'This question is required.')]"
+    title_warning_rateOurServices = "//div[@id='ErrorMsgId_r9f97f2550332479a8fdd2914bd99bc1d']//span[contains(text(),'This question is required.')]"
+    title_warning_reviewDate = "//div[@id='ErrorMsgId_r1abee94394494318b1e34a419838e56c']//span[contains(text(),'This question is required.')]"
+}   
+
+export default form
